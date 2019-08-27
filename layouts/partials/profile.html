@@ -1,11 +1,15 @@
 <div class="profile">
     <section id="wrapper">
         <header id="header">
+            {{ if ne .Title "Tags" }}
             <a href="{{ "about" | absURL }}">
-                <img id="avatar" class="2x" src="{{ "images/avatar.png" | absURL }}"/>
+                <img id="avatar" src="{{ "images/favicon.png" | absURL }}" />
             </a>
-            <h1>{{ .Site.Params.name }}</h1>
-            <h2>{{ .Site.Params.bio | markdownify }}</h2>
+            <h1>{{ .Title }}</h1>
+            <h2>{{ .Site.Params.Description | markdownify }}</h2>
+            {{else}}
+            <h1>{{ .Title }}</h1>
+            {{ end }}
         </header>
     </section>
 </div>
