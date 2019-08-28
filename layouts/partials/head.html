@@ -10,6 +10,8 @@
 {{ else }}
 <meta name="description" content="{{ .Site.Params.metaDescription }}">
 {{ end }}
+<meta property="og:locale" content="{{ .Site.Params.locale }}" />
+<meta property="og:site_name" content="{{ .Site.Params.siteName }}" />
 
 {{ hugo.Generator }}
 <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>

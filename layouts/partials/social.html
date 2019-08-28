@@ -1,20 +1,31 @@
 <div id="social">
-{{ if eq .Site.Params.iconFont "font-awesome" }}
-	
-	{{ range $key, $val := .Site.Social }}
+    {{ if eq .Site.Params.iconFont "font-awesome" }}
+
+    {{ range $key, $val := .Site.Social }}
     <a class="symbol" href="{{ $val }}">
         <i class="fa fa-{{ $key }}"></i>
     </a>
     {{ end }}
 
-{{ else }}
-	
-	{{ $iconStyle := .Site.Params.socialIconStyle }}
-    {{ range $key, $val := .Site.Social }}
-    <a class="symbol" href="{{ $val }}">
-        {{ $iconStyle }}{{ if eq $key "twitter" }}twitterbird{{ else }}{{ $key }}{{ end }}
-    </a>
-    {{ end }}
+    {{ else }}
 
-{{ end }}
+    {{ $iconStyle := .Site.Params.socialIconStyle }}
+    {{ range $key, $val := .Site.Social }}
+
+    {{ if eq $key "twitter" }}
+    <a class="symbol" href="https://twitter.com/{{ $val }}">
+        {{ else if (eq $key "linkedin") }}
+        <a class="symbol" href="https://www.linkedin.com/in/{{ $val }}">
+            {{ else if (eq $key "githubalt") }}
+            <a class="symbol" href="https://github.com/{{ $val }}">
+                {{ else if (eq $key "stackoverflow") }}
+                <a class="symbol" href="https://stackoverflow.com/{{ $val }}">
+                    {{ else }}
+                    <a class="symbol" href="{{ $val }}">
+                        {{ end }}
+                        {{ $iconStyle }}{{ if eq $key "twitter" }}twitterbird{{ else }}{{ $key }}{{ end }}
+                    </a>
+                    {{ end }}
+
+                    {{ end }}
 </div>
