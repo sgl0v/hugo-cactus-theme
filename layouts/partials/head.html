@@ -30,6 +30,7 @@
 {{ range .Site.Params.customCSS }}
 <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
 
 {{ if eq .Site.Params.iconFont "font-awesome" }}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
