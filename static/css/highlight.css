@@ -1,107 +1,84 @@
 /*
-  IR_Black style (c) Vasily Mikhailitchenko <vaskas@programica.ru>
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
 */
 
 .hljs {
   display: block;
   overflow-x: auto;
-  /*padding: 0.5em;*/
+  padding: 0.5em;
   background: #272b2d;
-  color: #d0d0d0;
-  -webkit-text-size-adjust: none;
+  color: #839496;
 }
 
-.hljs-shebang,
-.hljs-comment {
-  color: #777279;
+.hljs-comment,
+.hljs-quote {
+  color: #586e75;
 }
 
+/* Solarized Green */
 .hljs-keyword,
-.hljs-tag,
-.tex .hljs-command,
-.hljs-request,
-.hljs-status,
-.clojure .hljs-attribute {
-  color: #ebde68;
+.hljs-selector-tag,
+.hljs-addition {
+  color: #859900;
 }
 
-.hljs-sub .hljs-keyword,
-.method,
-.hljs-list .hljs-title,
-.nginx .hljs-title {
-  color: #ffffb6;
-}
-
-.hljs-string,
-.hljs-tag .hljs-value,
-.hljs-cdata,
-.hljs-filter .hljs-argument,
-.hljs-attr_selector,
-.apache .hljs-cbracket,
-.hljs-date,
-.coffeescript .hljs-attribute {
-  color: #c1ef65;
-}
-
-.hljs-subst {
-  color: #daefa3;
-}
-
-.hljs-regexp {
-  color: #e9c062;
-}
-
-.hljs-title,
-.hljs-sub .hljs-identifier,
-.hljs-pi,
-.hljs-decorator,
-.tex .hljs-special,
-.hljs-type,
-.hljs-constant,
-.smalltalk .hljs-class,
-.hljs-doctag,
-.nginx .hljs-built_in {
-  color: #c1ef65;
-}
-
-.hljs-symbol,
-.ruby .hljs-symbol .hljs-string,
+/* Solarized Cyan */
 .hljs-number,
-.hljs-variable,
-.vbscript,
+.hljs-string,
+.hljs-meta .hljs-meta-string,
 .hljs-literal,
-.hljs-name {
-  color: #77bcd7;
+.hljs-doctag,
+.hljs-regexp {
+  color: #2aa198;
 }
 
-.css .hljs-tag {
-  color: #96cbfe;
+/* Solarized Blue */
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #268bd2;
 }
 
-.css .hljs-rule .hljs-property,
-.css .hljs-id {
-  color: #ffffb6;
+/* Solarized Yellow */
+.hljs-attribute,
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-class .hljs-title,
+.hljs-type {
+  color: #b58900;
 }
 
-.css .hljs-class {
-  color: #fff;
+/* Solarized Orange */
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link {
+  color: #cb4b16;
 }
 
-.hljs-hexcolor {
-  color: #c6c5fe;
+/* Solarized Red */
+.hljs-built_in,
+.hljs-deletion {
+  color: #dc322f;
 }
 
-.hljs-number {
-  color:#77bcd7;
+.hljs-formula {
+  background: #073642;
 }
 
-.coffeescript .javascript,
-.javascript .xml,
-.tex .hljs-formula,
-.xml .javascript,
-.xml .vbscript,
-.xml .css,
-.xml .hljs-cdata {
-  opacity: 0.7;
+.hljs-emphasis {
+  font-style: italic;
 }
 
+.hljs-strong {
+  font-weight: bold;
+}
