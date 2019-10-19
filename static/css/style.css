@@ -34,7 +34,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 #flex-footer {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: normal;
 	line-height: 1.4;
 	border-top: 1px solid #eee;
@@ -100,7 +100,7 @@ margin-bottom: 20px;
 html, body { height: 100%; }
 
 body {
-	font:18px/1 'Noto Serif', serif;
+	font:20px/1 'Noto Serif', serif;
 	color: #666;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -169,7 +169,7 @@ nav.main-nav a {
 	right: 6px;
 	padding: 8px 12px;
 	color: #5badf0;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 500;
 	line-height: 1.35;
 	border-radius: 3px;
@@ -278,9 +278,10 @@ em, i { font-style: italic; }
 }
 
 .post h2 {
-	margin-bottom: 20px;
-	  font: bold 28px/1.5 'Noto Serif', serif;
-	  color: #111;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	font: bold 28px/1.5 'Noto Serif', serif;
+	color: #111;
 }
 
 .post h2.subtitle {
@@ -298,6 +299,13 @@ em, i { font-style: italic; }
 	  letter-spacing: 2px;
 	  /*margin-top: 15px;*/
 	  display: inline-block;
+}
+
+.post h3 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font: bold 20px/1.5 'Noto Serif', serif;
+	color: #111;
 }
 
 .post a.tag {
@@ -348,7 +356,7 @@ blockquote {
 	margin-left: 15px;
 	padding-left: 15px;
 	border-left: 3px solid #eee;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 hr {
@@ -608,7 +616,7 @@ h2.month {
 }
 
 #post-list.archive.readmore a{
-	font: 400 16px/1.6 'Noto Serif', serif;
+	font: 400 18px/1.6 'Noto Serif', serif;
 	color: #5694f1;
 }
 
@@ -617,7 +625,7 @@ h2.month {
 }
 
 #post-list.archive.readmore .dates{
-	font: 300 16px/1.6 'Noto Serif', serif;
+	font: 300 18px/1.6 'Noto Serif', serif;
 }
 #sharing a.facebook {
   background: #4361b3;

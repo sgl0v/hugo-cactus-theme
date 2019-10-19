@@ -26,7 +26,8 @@
 <meta name="msapplication-config" content="{{ "images/browserconfig.xml" | absURL }}">
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
-<link rel="stylesheet" href="{{ "css/highlight.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/prism.css" | absURL }}">
+<!-- <link rel="stylesheet" href="{{ "css/highlight.css" | absURL }}"> -->
 {{ range .Site.Params.customCSS }}
 <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
