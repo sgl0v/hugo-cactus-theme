@@ -4,6 +4,7 @@
         <h1>{{ .Title }}</h1>
         <br>
         <!-- <h2 class="subtitle">{{ .Description | markdownify }}</h2> -->
+        {{ if ne .Title "About" }}
         <h2 class="headline">
             {{ with .Date }}
             {{ .Format "January 2, 2006" }}
@@ -17,6 +18,7 @@
             {{ end }}
             {{ end}}
         </h2>
+        {{ end }}
     </header>
     <section id="post-body">
         {{ .Content }}

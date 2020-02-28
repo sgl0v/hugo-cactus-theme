@@ -138,9 +138,9 @@ h2 {
 }
 
 .profile h1 {
-	letter-spacing: 0px;
-	font: normal 44px/1.4em 'Noto Serif', serif;
-	color: #222;
+	margin-bottom: 0px;
+	color: #222222;
+	font: 500 42px/1.4em 'Roboto', serif;
 }
 
 .profile h2 {
@@ -167,7 +167,7 @@ nav.main-nav a {
 	top: 8px;
 	right: 6px;
 	padding: 8px 12px;
-	color: #5badf0;
+	color: #3399ff;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 1.35;
@@ -175,7 +175,7 @@ nav.main-nav a {
 
 }
 nav.main-nav a.cta {
-	background: #5badf0;
+	background: #3399ff;
 	color: #fff;
 	margin-left: 12px;
 }
@@ -201,17 +201,25 @@ nav.main-nav a.cta {
 
 /* Typography */
 /*Accent color*/
-a,
+a:hover,
 #title,
 #post-list a:hover,
 #post-list li:hover .dates,
 #title:hover {
 	text-decoration: none;
-	color: #5badf0;
-	color: #5694f1;
+	color: #73b3f3;
 }
 
-p a { color: #5694f1; }
+a, #post-nav a {
+	text-decoration: none;
+	color: #3399ff;
+}
+
+#post-nav a {
+	font: normal 14px/1.5em 'Noto Serif', serif;
+}
+
+p a { color: #3399ff; }
 
 /*Transitions*/
 a,
@@ -610,13 +618,13 @@ h2.month {
 
 #post-list.archive.readmore h3{
 
-	  font: 400 20px 'Noto Serif', serif;
-	  margin-bottom: 30px;
+	  font: 500 22px 'Roboto', serif;
+	  margin-bottom: 25px;
 }
 
 #post-list.archive.readmore a{
 	font: 400 18px/1.6 'Noto Serif', serif;
-	color: #5694f1;
+	color: #3399ff;
 }
 
 #post-list.archive.readmore a:hover{
