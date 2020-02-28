@@ -28,9 +28,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .flex-footer-text div.dark {
-	color: #1E2025;
-	font-weight: 900;
-	font-size: 18px;
+    color: #1E2025;
+	font-weight: 700;
 }
 
 #flex-footer {
@@ -231,9 +230,9 @@ ol { list-style: decimal; }
 li	{  list-style-position:inside; }
 
 /* Line Height */
-#post-body, p { line-height:1.8; text-align:justify;}
+#post-body, p { line-height:1.8; text-align: left;}
 
-b, strong { font-weight: 500;
+b, strong { font-weight: 700;
   color: #1E2025; }
 em, i { font-style: italic; }
 
@@ -273,14 +272,14 @@ em, i { font-style: italic; }
 
 .post h1 {
 	margin-bottom: 0px;
-	color: #222;
-	font: bold 36px/1.4em 'Noto Serif', serif;
+	color: #222222;
+	font: 500 42px/1.4em 'Roboto', serif;
 }
 
 .post h2 {
 	margin-top: 30px;
 	margin-bottom: 5px;
-	font: bold 28px/1.5 'Noto Serif', serif;
+	font: 500 36px/1.5 'Roboto', serif;
 	color: #111;
 }
 
@@ -291,9 +290,9 @@ em, i { font-style: italic; }
 
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
-	font: normal 13px/1.5em 'Noto Serif', serif;
+	font: normal 13px/1.5em 'Roboto', serif;
 	margin: -5px 0 40px 0;
-	color: #b2b9be;
+	color: #969ca0;
 	  font-size: 13px;
 	  text-transform: uppercase;
 	  letter-spacing: 2px;
@@ -302,9 +301,9 @@ em, i { font-style: italic; }
 }
 
 .post h3 {
-	margin-top: 20px;
+	margin-top: 22px;
 	margin-bottom: 5px;
-	font: bold 20px/1.5 'Noto Serif', serif;
+	font: 500 32px/1.5 'Roboto', serif;
 	color: #111;
 }
 
