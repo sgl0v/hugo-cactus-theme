@@ -18,18 +18,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	flex-direction: column;
 }
 
-.flex-footer-text div {
-	margin: 10px;
-}
-
 .flex-footer-text div.light {
 	color: #aaa;
-	font-weight: 500;
+	font: 500 16px/1 'Noto Serif', serif;
+	margin-top: 10px;
+	margin-bottom: 16px;
 }
 
 .flex-footer-text div.dark {
+	font: 500 20px/1.5 'Roboto';
     color: #1E2025;
-	font-weight: 700;
 }
 
 #flex-footer {
@@ -316,7 +314,7 @@ em, i { font-style: italic; }
 }
 
 .post a.tag {
-	  font: bold 10px/1.5em 'Noto Serif', serif;
+	  font: bold 10px/1.5em 'Roboto', serif;
 	  text-transform: uppercase;
 	  /* letter-spacing: 2px; */
 	  /*margin-top: 15px;*/
