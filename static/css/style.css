@@ -20,9 +20,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .flex-footer-text div.light {
 	color: #aaa;
-	font: 500 16px/1 'Noto Serif', serif;
-	margin-top: 10px;
-	margin-bottom: 16px;
+	font: 500 18px/1 'Noto Serif', serif;
+	margin-top: 6px;
+	margin-bottom: 14px;
 }
 
 .flex-footer-text div.dark {
@@ -296,14 +296,13 @@ em, i { font-style: italic; }
 
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
-	font: normal 13px/1.5em 'Roboto', serif;
+	font: normal 14px/1.5em 'Roboto', serif;
 	margin: -5px 0 40px 0;
-	color: #969ca0;
-	  font-size: 13px;
-	  text-transform: uppercase;
-	  letter-spacing: 2px;
-	  /*margin-top: 15px;*/
-	  display: inline-block;
+	color: #aaa;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	/*margin-top: 15px;*/
+	display: inline-block;
 }
 
 .post h3 {
